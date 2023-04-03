@@ -12,7 +12,7 @@ public class Main {
 
         int x, y;
 
-        /*String msg = ("Entrez l'indice de l'entier à diviser: ");
+        String msg = ("Entrez l'indice de l'entier à diviser: ");
 
         x = sc.nextInt();
         int x = readInteger(msg, 0, 9);
