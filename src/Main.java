@@ -81,10 +81,14 @@ public class Main {
                 }
 
             } catch (InputMismatchException e) {
-                System.err.println("Une erreur est survenue: ");
+                System.err.println("Une erreur est survenue. La valeur entrée doit être un entier: ");
                 System.out.println(message);
             }
+            catch (RuntimeException e){
+                System.err.println("Une erreur est survenue. " +e);
+                System.out.println(message);
+            }
+
         }
     }
-
 }
